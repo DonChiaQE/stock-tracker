@@ -43,7 +43,7 @@ Flask-SSE==1.0.0
 gevent==21.1.2
 greenlet==1.0.0
 grpcio==1.34.0
-gunicorn==19.10.0
+gunicorn==20.1.0
 httplib2==0.18.1
 idna==2.8
 importlib-metadata==2.1.1
