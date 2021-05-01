@@ -6,9 +6,6 @@ import json
 import argparse
 from collections import OrderedDict
 
-# configuration
-DEBUG = True
-
 # instantiate the app
 app = Flask(__name__)
 app.config.from_object(__name__)
