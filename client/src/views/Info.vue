@@ -32,7 +32,7 @@ export default {
     },
     methods: {
         getData() {
-            const path = `http://127.0.0.1:5000/${this.ticker}`;
+            const path = `https://pure-tor-96228.herokuapp.com/${this.ticker}`;
             console.log(path)
             setInterval(() => {
                 axios.get(path)
