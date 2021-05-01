@@ -83,5 +83,5 @@ def get_headers():
             "upgrade-insecure-requests": "1",
             "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.122 Safari/537.36"}
 
-if __name__=="__main__":
+if __name__ == '__main__':
     app.run()
