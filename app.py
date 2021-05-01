@@ -25,7 +25,7 @@ def ticker(ticker):
     parser = html.fromstring(response.text)
     summary_table = parser.xpath(
             '//div[contains(@data-test,"summary-table")]//tr')
-    name = parser.xpath('//h1[contains(@data-reactid, "7")]/node()')[0]
+    name = parser.xpath('//h1[contains(@data-reactid, "7")]/node()')
     change = parser.xpath('//span[contains(@data-reactid, "33")]/node()')
     current_price = parser.xpath('//span[contains(@data-reactid, "32")]/node()')[0]
     pre_market_price = parser.xpath('//span[contains(@data-reactid, "37")]/node()')
