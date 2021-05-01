@@ -87,8 +87,3 @@ urllib3==1.25.11
 virtualenv==20.2.2
 webassets==2.0
 Werkzeug==1.0.1
-xattr==0.6.4
-yarg==0.1.9
-zipp==1.2.0
-zope.event==4.5.0
-zope.interface==5.4.0
